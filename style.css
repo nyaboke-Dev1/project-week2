@@ -1,0 +1,11 @@
+/*header section styling>*/
+@import "tailwindcss"
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.font-dancing {
+    font-family: 'Dancing Script', cursive;
+}
+.font-libertinus {
+    font-family: 'Libertinus Math', serif;
+}

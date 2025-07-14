@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crusty Bites</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libertinus+Math&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Header section-->
+    <header class="flex justify-between items-center px-40 py-10 bg-black">
+        <div class="flex items-center gap-4">
+        <img src="/week2_project/images/Crusty bites.jpg" alt="logo" class="h-20 w-auto">
+        <p class="text-xl font-semibold text-orange-700 font-[Dancing Script]">Crusty Bites</p></div>
+        <nav class="space-x-10 flex text-white font-[Libertinus Math]">
+            <a href="index.html" class="hover:text-red-700">Home</a>
+            <a href="menu.html" class="hover:text-red-700">Menu</a>
+            <a href="about.html" class="hover:text-red-700">About</a>
+            <a href="contacts.html" class="hover:text-red-700">Contacts</a>
+        </nav>
+    </header>
+    
+
+  <!-- Contact Page -->
+  <main>
+    <section class="contact-section">
+      <h2 class="text-orange-500 font-bold text-2xl">Contact Us</h2>
+      <p>We’d love to hear from you! Feel free to reach out using the form below or visit us at our location.</p>
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form><br>
+
+      <h3 class=" text-orange-500 font-bold text-2xl">Visit Us</h3>
+      <p>123 Crusty Lane, Nairobi, Kenya</p>
+      <p>Phone: 0712 345 678</p>
+      <p>Email: crustybites@gmail.com</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3988.9576186021727!2d36.928921924131814!3d-1.1901322355268322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skahawa%20sukari%20pause%20road%20netcore!5e0!3m2!1sen!2ske!4v1752454064406!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-4 mt-10">
+   <p>Contact us: crustybites@example.com | 0712 345 678</p>
+    <p>Follow us on social media: Facebook | Instagram</p>
+</footer>
+
+</body>
+</html>
